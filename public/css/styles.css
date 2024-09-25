@@ -1,6 +1,8 @@
 .container{
     background-color: #4d619c;
     color:rgb(5, 0, 0);
+    text-align: center;
+    align-items: center;
 }
 
 h3{
@@ -21,7 +23,7 @@ nav a {
     text-decoration: none; /* Quitar subrayado */
     padding: 15px 20px; /* Espaciado interno de los enlaces */
     display: inline-block; /* Mostrar los enlaces en línea */
-    font-family: Arial, sans-serif; /* Tipografía */
+    font-family: monospace; /* Tipografía */
 }
 
 /* Cambios al pasar el mouse por los enlaces */
@@ -33,4 +35,33 @@ nav a:hover {
 /* Estilo para cuando el enlace está activo */
 nav a:active {
     background-color: #9643ca; /* Color de fondo al hacer clic */
+}
+#miFooter {
+    background-color: #936095; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    text-align: center; /* Centrar el texto */
+    padding: 20px 0; /* Espacio interno arriba y abajo */
+    font-family: monospace; /* Fuente del texto */
+}
+
+#miFooter hr {
+    border: none; /* Quitar borde del <hr> */
+    height: 2px; /* Definir altura de la línea */
+    background-color: white; /* Línea blanca */
+    width: 100%; /* Línea con un ancho del 50% */
+    margin: 0 auto 10px auto; /* Centrar línea y agregar margen abajo */
+}
+#miFooter p {
+    margin: 5px 0; /* Espacio entre los párrafos */
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+#miFooter .autor {
+    font-style: italic; /* Poner el autor en cursiva */
+    font-size: 12px; /* Tamaño más pequeño para el autor */
+}
+
+#miFooter .autor span {
+    color: #ffcc00; /* Cambiar el color del nombre del autor */
+    font-weight: bold; /* Hacer el nombre del autor negrita */
 }
