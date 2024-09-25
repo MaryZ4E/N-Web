@@ -1,0 +1,36 @@
+.container{
+    background-color: #4d619c;
+    color:rgb(5, 0, 0);
+}
+
+h3{
+    font-size: 30pt;
+    color: purple;
+    background-color: aliceblue;
+}
+/* Estilo general para el nav */
+nav {
+    background-color: #ba7fb9; /* Color de fondo */
+    text-align: center; /* Centrar los enlaces */
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Estilo para los enlaces */
+nav a {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado */
+    padding: 15px 20px; /* Espaciado interno de los enlaces */
+    display: inline-block; /* Mostrar los enlaces en línea */
+    font-family: Arial, sans-serif; /* Tipografía */
+}
+
+/* Cambios al pasar el mouse por los enlaces */
+nav a:hover {
+    background-color: #575757; /* Color de fondo al hacer hover */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+/* Estilo para cuando el enlace está activo */
+nav a:active {
+    background-color: #9643ca; /* Color de fondo al hacer clic */
+}
